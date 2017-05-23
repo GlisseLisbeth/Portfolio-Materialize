@@ -1,24 +1,17 @@
-body, html
-{
+body, html{
     background-color: #EDEDED !important;
 }
-
-.intro
-{
+.intro{
     text-align: center;
     padding-top: 13%;
     padding-bottom: 13%;
     margin-bottom: 50px;
 }
-
-.intro h1
-{
+.intro h1{
     font-weight: 900;
     text-transform: capitalize;
 }
-
-.intro h5
-{
+.intro h5{
     text-transform: uppercase;
     background-color: #f5f5f5;
     padding: 10px;
@@ -26,103 +19,79 @@ body, html
     display: inline-block;
     font-size: 1.2rem;
 }
-
 /*about section*/
-
-.about .col
-{
+.title{
+	font-size:1em;
+	text-transform: uppercase;
+}
+hr.width5{
+	width: 5%;
+}
+.margin{
+	margin: 3em 0;
+}
+.about .col{
     margin-bottom: 24px;
 }
-
-.about h5
-{
+.about h5{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-
-
 /*portfolio*/
-
-.portfolio .col
-{
+.portfolio .col{
     margin-bottom: 24px;
 }
-
-.portfolio h5
-{
+.portfolio h5{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-
-.portfolio h6
-{
+.portfolio h6{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 45px;
 }
-
-.portfolio hr
-{
+.portfolio hr{
     width: 40px;
     margin-bottom: 45px;
 }
-
-.portfolio .portfolio-holder
-{
+.portfolio .portfolio-holder{
     clear: both;
     text-align: center;
 }
-
-.portfolio img
-{
+.portfolio img{
     width: 33%;
     display: inline-block;
     float: left;
 }
-
 /**conatcts*/
-
-.contact .col
-{
+.contact .col{
     margin-bottom: 24px;
 }
-
-.contact h5
-{
+.contact h5{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-
-.contact h6
-{
+.contact h6{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 45px;
 }
-
-.contact hr
-{
+.contact hr{
     width: 40px;
     margin-bottom: 45px;
 }
-
-.contact .contact-holder
-{
+.contact .contact-holder{
     padding-left: 40px;
     text-align: left;
 }
-
-.contact .contact-holder h6
-{
+.contact .contact-holder h6{
     margin-bottom: 15px;
     text-align: left;
 }
-
-.contact .contact-holder p
-{
+.contact .contact-holder p{
     margin-bottom: 30px;
 }
 
