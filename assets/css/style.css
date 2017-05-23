@@ -1,21 +1,27 @@
 body, html{
     background-color: #EDEDED !important;
 }
-.intro{
+.presentation{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     padding-top: 13%;
     padding-bottom: 13%;
     margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+
 }
-.intro h1{
+.presentation h1{
     font-weight: 900;
     text-transform: capitalize;
 }
-.intro h5{
+.presentation h5{
     text-transform: uppercase;
     background-color: #f5f5f5;
     padding: 10px;
-    color: #333333;
+    color: #000;
     display: inline-block;
     font-size: 1.2rem;
 }
@@ -37,6 +43,9 @@ hr.width5{
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+.portfolio .col{
+    margin-bottom: 24px;
+}
 .portfolio h5{
     text-align: center;
     text-transform: uppercase;
@@ -51,6 +60,7 @@ hr.width5{
     width: 40px;
     margin-bottom: 45px;
 }
+
 .portfolio .portfolio-holder{
     clear: both;
     text-align: center;
@@ -88,7 +98,6 @@ hr.width5{
 .contact .contact-holder p{
     margin-bottom: 30px;
 }
-/**footer*/
 footer #footer {
     font-weight: 300;
     line-height: 4em;
