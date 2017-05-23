@@ -19,7 +19,6 @@ body, html{
     display: inline-block;
     font-size: 1.2rem;
 }
-/*about section*/
 .title{
 	font-size:1em;
 	text-transform: uppercase;
@@ -37,10 +36,6 @@ hr.width5{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
-}
-/*portfolio*/
-.portfolio .col{
-    margin-bottom: 24px;
 }
 .portfolio h5{
     text-align: center;
@@ -61,11 +56,10 @@ hr.width5{
     text-align: center;
 }
 .portfolio img{
-    width: 33%;
+    width: 100%;
     display: inline-block;
     float: left;
 }
-/**conatcts*/
 .contact .col{
     margin-bottom: 24px;
 }
@@ -95,14 +89,9 @@ hr.width5{
     margin-bottom: 30px;
 }
 /**footer*/
-footer#footer {
+footer #footer {
     font-weight: 300;
     line-height: 4em;
     color: white;
     height: 4em;
 }
-
-
-
-
-
