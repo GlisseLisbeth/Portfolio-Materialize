@@ -94,4 +94,15 @@ hr.width5{
 .contact .contact-holder p{
     margin-bottom: 30px;
 }
+/**footer*/
+footer#footer {
+    font-weight: 300;
+    line-height: 4em;
+    color: white;
+    height: 4em;
+}
+
+
+
+
 
