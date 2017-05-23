@@ -43,9 +43,6 @@ hr.width5{
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-.portfolio .col{
-    margin-bottom: 24px;
-}
 .portfolio h5{
     text-align: center;
     text-transform: uppercase;
@@ -69,6 +66,9 @@ hr.width5{
     width: 100%;
     display: inline-block;
     float: left;
+}
+.row-sin-marg{
+  margin:0;
 }
 .contact .col{
     margin-bottom: 24px;
